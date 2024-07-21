@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    color: #fff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  .header-section {
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("https://res.cloudinary.com/dv7yq8yly/image/upload/v1721458533/banner._nisa3x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .spectral-section {
+    text-align: center;
+    padding: 10px;
+  }
+  .activate {
+    margin-top: 30px;
+    padding: 6px;
+    border: 2px solid red;
+    background-color: transparent;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(237 73 51);
+    width: 14em;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .spectral-section h1 {
+    margin-bottom: 15px;
+  }
+  .main-section {
+    background-color: rgb(33 178 166);
+  }
+  .section-start {
+    text-align: center;
+    padding: 40px;
+  }
+  .section-start h1 {
+    margin-bottom: 20px;
+  }
+  .section-start p {
+    color: rgb(200 236 233);
+    margin-top: 20px;
+  }
+  .border-class {
+    transform: rotate(42deg);
+    border-radius: 0.25rem;
+    border: solid 2px #dde1e3;
+    height: 3.5em;
+    width: 3.5em;
+    margin-left: 14px;
+  }
+  .bi-gem,
+  .bi-code-slash,
+  .bi-heart {
+    font-size: 30px;
+    display: inline-block;
+    transform: rotate(-45deg);
+    position: relative;
+    top: 10px;
+  }
+  .bi-gem {
+    color: rgb(0 255 204);
+  }
+  .bi-code-slash {
+    color: rgb(118 221 255);
+  }
+  .bi-heart {
+    color: rgb(0 240 255);
+  }
+  .icon-border {
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    text-align: center;
+  }
+  .computer-img {
+    width: 100%;
+  }
+  .computer-one {
+    background-color: #2b343d;
+    text-align: center;
+  }
+  .computer-one > p {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .computer-one > h1 {
+    padding: 20px;
+  }
+  .img-section {
+    width: 100%;
+  }
+  .icon-section {
+    background-color: #505393;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .icon-section > h1 {
+    margin-bottom: 20px;
+  }
+  
+  .icon-section > p {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon-section >.icon-one{
+    font-size:40px;
+    padding: 30px;
+    color:#00ffcc;
+   }
+  .icon-section-one > h1{
+    padding: 30px;
+    margin-bottom:30px;
+    font-size:30px;
+  }
+  .icon-section-one > p{
+    font-size:20px;
+    margin-bottom:30px
+  }
+  .last-section{
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("https://res.cloudinary.com/dv7yq8yly/image/upload/v1721458533/banner._nisa3x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .last-section{
+    text-align:center;
+    padding: 10px;
+  }
+  .btn.btn-learn-more  {
+     background-color:transparent;
+    border:2px solid white; 
+    font-size:14px;
+  }
+  .styled {
+     border: none;
+     height: 2px;
+     background-color:#fff; 
+     width:40%;
+    margin:0 auto;
+  }
+  .btn{margin-top: 30px;
+    padding: 6px;
+    border: 2px solid red;
+    background-color: transparent;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(237 73 51);
+    width: 14em;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .footer-card{
+    text-align:center;
+    background-color:rgb(29 36 42);
+  }
+  .list-icons{
+    display:flex;
+    list-style-type:none;
+    justify-content:center;
+    gap:25px;
+    padding:40px;
+  }
+  li a {
+   color:rgb(142 146 149);
+    font-size:20px;
+  }
+  li a:hover {
+    color:white;
+    text-decoration:none;
+  }
+  .list {
+    font-size:14px;
+   color:rgb(142 146 149);
+  }
+  .list a{
+    font-size:15px;
+    text-decoration-style:dotted;
+  }
+  .listed {
+    padding-bottom:25px;
+  }
+  hr {
+      border: none;
+      height: 0.7px;
+      background-color:black;
+  }
+  
