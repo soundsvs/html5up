@@ -190,13 +190,13 @@ color:#3ed8c4;
     color: #3edbd5;
   }
   
-  .lists {
+  .contact-lists {
     padding:10px 10px;
   }
-   a.lists:hover{
+   .lists:hover{
     color: #3edbd5;
   }
-  .lists {
+  .contact-lists {
     list-style-type: none;
   }
   .icone-li {
