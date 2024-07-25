@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-image: url(assest/slide01\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.container-faction{
+    margin-top: 10px;
+    padding: 10px;
+    margin: 30px;
+    /* text-align: center; */
+    color: #e7f9ff;
+}
+
+.btn{
+     
+        font-size: 20px;
+        font-weight: normal;
+        width:60%;
+        margin-top: 15px;
+        padding: 14px;
+        border: 1px solid #dde1e3;
+      background-color: transparent;
+        border-radius: 50px;
+        color:#e7f9ff;
+        display: inline-block;
+        margin-bottom: 20px;
+        text-align: center;
+        text-decoration:none;
+    }
+
+
+.description{
+      color:white;
+      margin-top: 0px;
+      padding: 32px 24px 1.6px;
+}
+.des-faction h3{
+    color:#3ed8c4;
+}
+.des-faction p{
+    color: #8f918f;
+}
+
+
+ .icons-i{
+       font-size:25px;
+       border: 1px solid #8f918f;
+       display:inline-block;
+       padding:10px;
+       border-radius: 50px;
+       color: #8f918f;
+}
+ .icons-address h4 p{
+     display: flex;
+    flex-direction: row;
+    top:0px 
+ }
+.icons-address h4 {
+     color:#3ed8c4;
+}
+.icons-address p{
+     color:#8f918f;
+} 
+
+
+.post-icons{
+    padding: 32px 24px 1.6px;
+}
+.icons-list{
+    display: flex;
+}
+.icons-list h2, .icons-list p{
+    margin: 0px;
+    margin-top:10px ;
+    font-weight: 100;
+    margin-left: 20px;
+    /* padding: 0px 0px 32px; */
+
+}
+.icons-list h2{
+    color:#3ed8c4;
+}
+.icons-list p{
+    color:#8f918f;
+    /* padding: 0px 0px 32px; */
+}
+.icons-link{
+    /* font-size:20px;
+       border: 1px solid #8f918f;
+       display:inline-block;
+       padding: 20px;
+       border-radius:50px;
+       color: #8f918f;  */
+    
+       font-size:30px;
+       border: 1px solid #8f918f;
+       display:inline-block;
+       padding:20px;
+       border-radius:40px;
+       color: #8f918f;
+
+}      
+.faction-img{
+    padding: 32px 24px 1.6px;
+}
+.img-class{
+    width: 100%;
+}
+.img-abc h3{
+    color:#3ed8c4;
+    font-size: 20px;
+}
+.btn-one{
+      font-size: 20px;
+        font-weight: normal;
+        width: 90%;
+        margin-top: 15px;
+        padding: 14px;
+        border: 1px solid #dde1e3;
+      background-color: transparent;
+        border-radius: 50px;
+        color:#978897;
+        display: inline-block;
+        margin-bottom: 20px;
+        text-align: center;
+        text-decoration:none;
+}
+a.btn-one:hover {
+    color: #3ed8c4;
+     border-radius:#3ed8c4; 
+}
+/* .btn-one:hover{
+    border: 1px solid #dde1e3;
+    border-radius:#3ed8c4;
+} */
+.aliquam-decription{
+    padding: 32px 24px 1.6px;
+}
+.aliquam-decription h3{
+    color:#3ed8c4;
+}
+.dolore-para{
+    padding: 32px 24px 1.6px;
+}
+.dolore-para h3{
+   color:#3ed8c4;
+}
+.dolore-para p{
+color: #8f918f;
+
+}
+.dolore-para p:hover{
+color:#3ed8c4;
+}
+.dolore-para span{
+ color: #8f918f;
+ margin-top: 30px;
+}
+.dolore-about{
+    padding: 32px 24px 1.6px;
+}
+.dolore-about h3{
+    color:#3ed8c4;
+}
+.dolore-about p{
+  color: #abacab;
+  padding: 5px;
+  margin:  0px 0px 32px;
+}
+.contact-info{
+    padding: 32px 24px 1.6px;
+}
+.imag-one {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+  }
+  .contact-card h2 {
+    margin: 10px;
+    color: #3edbd5;
+  }
+  
+  .lists {
+    padding:10px 10px;
+  }
+   a.lists:hover{
+    color: #3edbd5;
+  }
+  .lists {
+    list-style-type: none;
+  }
+  .icone-li {
+    margin: 5px 10px;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+  }
+  .items {
+    display:flex;
+  }
+  .image-card {
+    padding: 10px;
+    display:flex;
+    flex-direction:column;
+    justify-contenet:center;
+     gap:20px;
+  }
+  .image-laptop {
+    border-radius:50%;
+    height:4em;
+    width:4em;
+    margin-right:40px;
+  }
+  .untitled{
+    padding: 32px 24px 1.6px;
+    text-align: center;
+    color: #8f918f;
+  }
