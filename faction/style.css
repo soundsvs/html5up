@@ -1,25 +1,31 @@
+*{
+  box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif" 
 }
 .container{
     background-image: url(assest/slide01\ \(2\).jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
     margin: 10px;
+    height: 100%;
+  
     
 }
 
 .container-faction{
     margin-top: 10px;
-    padding: 10px;
+    padding: 32px 32px 1.6px;
     margin: 30px;
-    /* text-align: center; */
     color: #e7f9ff;
+    font-size: 29px;
 }
+
+
 
 .btn{
      
@@ -42,10 +48,10 @@ body{
 .description{
       color:white;
       margin-top: 0px;
-      padding: 32px 24px 1.6px;
+      padding: 20px 24px 1.6px;
 }
 .des-faction h3{
-    color:#3ed8c4;
+     color:#3ed8c4; 
 }
 .des-faction p{
     color: #8f918f;
@@ -78,13 +84,14 @@ body{
 }
 .icons-list{
     display: flex;
+    padding: 40px;
 }
 .icons-list h2, .icons-list p{
     margin: 0px;
     margin-top:10px ;
     font-weight: 100;
     margin-left: 20px;
-    /* padding: 0px 0px 32px; */
+    
 
 }
 .icons-list h2{
@@ -92,24 +99,18 @@ body{
 }
 .icons-list p{
     color:#8f918f;
-    /* padding: 0px 0px 32px; */
+    
 }
 .icons-link{
-    /* font-size:20px;
+       font-size: 20px;
        border: 1px solid #8f918f;
-       display:inline-block;
        padding: 20px;
-       border-radius:50px;
-       color: #8f918f;  */
-    
-       font-size:30px;
-       border: 1px solid #8f918f;
-       display:inline-block;
-       padding:20px;
-       border-radius:40px;
        color: #8f918f;
-
-}      
+       text-align: center;
+       border-radius: 50%;
+       position: relative;
+       margin: auto; 
+}       
 .faction-img{
     padding: 32px 24px 1.6px;
 }
@@ -139,10 +140,7 @@ a.btn-one:hover {
     color: #3ed8c4;
      border-radius:#3ed8c4; 
 }
-/* .btn-one:hover{
-    border: 1px solid #dde1e3;
-    border-radius:#3ed8c4;
-} */
+
 .aliquam-decription{
     padding: 32px 24px 1.6px;
 }
@@ -180,21 +178,44 @@ color:#3ed8c4;
 .contact-info{
     padding: 32px 24px 1.6px;
 }
+.contact-info h2{
+  color:#3edbd5
+}
 .imag-one {
     border-radius: 100%;
     height: 50px;
     width: 50px;
   }
-  .contact-card h2 {
-    margin: 10px;
-    color: #3edbd5;
+  .contact-card {
+    
+    display: flex;
+    gap: 10px;
+  }
+  .contact-card:hover{
+    color:#3edbd5
   }
   
   .contact-lists {
-    padding:10px 10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+      gap: 0px;
+    
   }
+  
+  
+   
+  .lists{
+      
+       display:flex;
+       gap: 10px; 
+      
+  }
+  
+   
    .lists:hover{
     color: #3edbd5;
+    
   }
   .contact-lists {
     list-style-type: none;
