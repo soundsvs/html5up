@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+.container {
+  background-image: url(assest/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-forty {
+  color: white;
+  padding: 80px 0px 16px;
+  margin: 30px;
+}
+
+.container-forty h2 {
+  font-size: 32px;
+}
+.container-forty p {
+  font-size: 11.2px;
+  margin: 0px 0px 22.4px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.btn {
+  /* margin: 20px; */
+  padding: 10px;
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  font-size: 12.8px;
+}
+.ali-decription {
+  background-image: url("https://html5up.net/uploads/demos/forty/images/pic01.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 270px;
+  padding-left: 25px;
+  color: white;
+}
+.ali-decription p {
+  margin: 0;
+}
+.decription p {
+  margin: 0;
+}
+.image-card {
+  background-image: url("https://html5up.net/uploads/demos/forty/images/pic02.jpg");
+}
+
+.img-abc {
+  background-image: url("https: //html 5up .net/uploads/demos/forty/images/pic03.jpg");
+}
+.magna-imfo {
+  background-image: url("https://html5up.net/uploads/demos/forty/images/pic04.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+  padding-left: 25px;
+  color: white;
+}
+.information {
+  margin: 0;
+}
+.card-info {
+  background-image: url("https://html5up.net/uploads/demos/forty/images/pic05.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+  padding-left: 25px;
+  color: white;
+}
+.libero-card {
+  background-color: #2a2f4a;
+}
+.libero-info {
+  margin: 0px 24px;
+  padding: 48px 0px 16px;
+  color: white;
+}
+.libero-info h2 {
+  font: 24px;
+}
+.libero-info p {
+  margin: 0px 0px 32px;
+  font: 16px;
+  padding: 8px;
+}
+.btn-one {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  font-size: 12.8px;
+}
+.Application {
+  background-color: #242943;
+  padding: 48px 0px 16px;
+}
+.form-text {
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+}
+.form-text .name {
+  background-color: #2a2f4a;
+  margin-top: 10px;
+  border: 1px solid #2a2f4a;
+  padding: 10px;
+  width: 90%;
+}
+.form-text .email {
+  background-color: #2a2f4a;
+  margin-top: 10px;
+  border: 1px solid #2a2f4a;
+  padding: 10px;
+  width: 90%;
+}
+.form-text #message {
+  background-color: #2a2f4a;
+  margin-top: 10px;
+  border: 1px solid #2a2f4a;
+  padding: 10px;
+  height: 30%;
+  width: 90%;
+}
+.form-text .pirmary {
+  margin-left: 10px;
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid #2a2f4a;
+  width: 40%;
+  color: #2a2f4a;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+.secondary {
+  background-color: #2a2f4a;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 25%;
+  letter-spacing: 1.5px;
+}
+/* .contact-info{
+    display: flex;
+    flex-direction: row;
+}
+ .form-text{ */
+
+/* margin-left: 30px;
+    color: */
+
+.contact-info {
+  background-color: #242943;
+}
+.bi-envelope-fill,
+.bi-telephone-fill,
+.bi-house-check-fill {
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 6px;
+  height: 2.2em;
+  margin-top: 10px;
+}
+
+.icon-card {
+  display: flex;
+  padding: 45px 24px;
+  border-bottom: 1px solid white;
+}
+
+.icons-description {
+  color: white;
+  margin-left: 20px;
+}
+
+.icons-description p {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: #f2f2ee;
+}
+
+.icons-description p > a {
+  color: #f2f2ee;
+  text-decoration-style: dotted;
+}
+
+.icons-description p > a:hover {
+  color: rgb(6,  223,  223);
+}
+
+.footer-card {
+  text-align: center;
+  background-color: #242943;
+}
+.list-icons {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+}
+.icone-link {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #f2f2ee;
+  color: #242943;
+}
+.listed .list {
+  text-decoration: none;
+  color: #3e4b63;
+}
+.listed {
+  background-color: #242943;
+}
