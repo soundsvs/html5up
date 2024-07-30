@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.Archetype {
+  padding: 36.6667px 22px 7.33333px;
+}
+.container {
+  padding: 36.6667px 22px 7.33333px;
+}
+.container-left h2 {
+  margin: 0px 0px 18.333px;
+  font-size: 18.222px;
+  color: #4d5968;
+  text-transform: uppercase;
+}
+.container-left p {
+  margin: -10.2667px 0px 14.6667px;
+  padding-bottom: 10px;
+  font-size: 14.666px;
+  color: #8f88b0;
+  border-bottom: 2px solid #8f88b0;
+}
+.image {
+  margin: 0px 0px 29.3333px;
+  border-radius: 10px;
+  width: 100%;
+}
+.container-dolore h3 {
+  font-size: 13.2px;
+  text-transform: uppercase;
+  margin: 0px 0px 13.2px;
+  letter-spacing: 1.2px;
+  color: #4d5968;
+}
+.container-dolore p {
+  font-size: 14.6667px;
+  margin: 0px 0px 28.333px;
+  color: #5e6875;
+}
+.container-sed h3 {
+  font-size: 13.2px;
+  
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #4d5968;
+}
+.container-sed p {
+  font-size: 14.6667;
+  color: #5e6875;
+  margin: 0px 0px 29.333px;
+}
+.container-order {
+  font-size: 14.666px;
+  padding: 0px 0px 0px 14.6667px;
+  color: #5e6875;
+  margin-bottom: 29.3333px 0px 0px;
+}
+.container-Magna h3 {
+  font-size: 12.5px;
+
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #4d5968;
+}
+
+.container-Magna p {
+  font-size: 14.6667px;
+  margin: 0px 0px 29.3333px;
+  color: #5e6875;
+}
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 23.4667px;
+  font-size: 11.733px;
+  color: #5e6875;
+  border: 1px solid #8f88b0;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #dadada;
+}
+.container-lorem h3 {
+  text-transform: uppercase;
+  color: #4d5968;
+  font-size: 13.2px;
+}
+.container-lorem p {
+  color: #5e6875;
+  font-size: 14.6667px;
+  margin: 0px 0px 29.3333px;
+}
+.image-one {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.description {
+  margin-top: 20px;
+  padding: 0px;
+  background-image: url(assest/banner.jpg);
+  background-color: rgba(21, 27, 33, 0.6);
+}
+.des-arc {
+  background-color: rgba(21, 27, 33, 0.6);
+  padding: 36.6667px 22px 7.33333px;
+}
+.description-vitae h3 {
+  font-size: 13.2px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0px 0px 13.2px;
+}
+.description-vitae p {
+  font-size: 14.66px;
+  color: #fff;
+  margin: 0px 0px 29.333px;
+}
+.btn-two {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 23.4667px;
+  font-size: 11.733px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+}
+
+.icon-card {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #fff;
+  gap: 20px;
+}
+.icons-description {
+  font-size: 13.2px;
+  color: white;
+  padding-top: 0px;
+}
+.footer-description {
+  text-align: center;
+  color: #fff;
+  font-size: 11.733px;
+  padding: 46.9333px;
+}
+.bi {
+  margin-top: 17px;
+}
+
+@media (max-width: 1440px) and (min-width: 600px) {
+  .media {
+    display: flex;
+  }
+  .container-right {
+    order: 1;
+  }
+  .container-Magna h3 {
+    padding: 0;
+  }
+  .des-arc {
+    display: flex;
+    padding: 100px 120px;
+    background-color: rgba(21, 27, 33, 0.6);
+  }
+  .description {
+    padding: 0;
+  }
+}
