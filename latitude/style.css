@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.container {
+  background-color: #333c40;
+  background-image: url(assest/overlay.png), url(assest/banner\ \(1\).jpg);
+  background-position: top left, center center;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  color: #cccecf;
+  padding: 16em 0 14em 0;
+  text-align: center;
+  padding: 73.33px 29.3px 58.66px;
+}
+.logo {
+  background: #f4715c;
+  color: #ffffff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.75em;
+  font-weight: 700;
+  padding: 12.8px 25.66px;
+}
+.container-latitude h2 {
+  font-size: 14.2px;
+  margin: 10px 0px 22px;
+  color: #ffffff;
+}
+.container-latitude p {
+  font-size: 14.6px;
+  color: #b8bfc2;
+  margin: -14.66px 0px 0px;
+}
+.description {
+  background-color: #f7f9f9;
+  padding: 29.33px 14.66px;
+}
+h2 span {
+  font-weight: 300;
+}
+.description-etiam h2 span {
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  color: #575d60;
+  font-size: 22px;
+}
+.description-etiam p {
+  font-size: 14.66px;
+  padding: 29.333px 0px 0px;
+  margin: 29.33px 0px 10px;
+}
+
+.btn {
+  width: 90%;
+  margin-top: 15px;
+  padding: 15px;
+  border: 2px solid #dde1e3;
+  background-color: #90969a13;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #575d60;
+  font-size: 18.3px;
+}
+.icon-card {
+  padding: 29.33px 14.66px;
+  background-color: #fff;
+}
+.icon-info h2 {
+  color: #575d60;
+  font-size: 22px;
+  margin: 0px 0px 22px;
+}
+.icon-info p {
+  font-size: 14.66px;
+  color: #7e8487;
+}
+.image {
+  width: 100%;
+}
+
+.icon-info > .list {
+  list-style-type: none;
+  color: #7e8487;
+  margin: 29.33px 0px 0px;
+  padding: 0px 0px 0px 44px;
+}
+.list > li > .bi {
+  margin-right: 10px;
+}
+
+.list > li {
+  margin-top: 29px;
+}
+
+.bi {
+  border: 2px solid #f4715c;
+  padding: 5px;
+  background-color: #f4715c;
+  color: white;
+}
+.consequat-card {
+  background-color: #ffffff;
+  padding: 29.33px 14.66px;
+}
+.consequat-card h3 {
+  font-size: 18.33px;
+  margin: 10px 0px 18.333px;
+}
+.consequat-card p {
+  font-size: 14.66px;
+  margin: 20px 0px 29.33px;
+}
+.btn-one {
+  width: 90%;
+  margin-top: 5px;
+  padding: 8px;
+  border: 2px solid #dde1e3;
+  background-color: #90969a13;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #575d60;
+  font-size: 18.3px;
+}
+.image-one {
+  margin-top: 30px;
+  width: 100%;
+}
+.ipsum {
+  color: #babfc2;
+}
+.image-two {
+  margin-top: 5px;
+  width: 100%;
+}
+.information-Feuqiat {
+  background-color: #333c40;
+  padding: 39.6px 13.2px;
+}
+.feuqiat h3 {
+  color: #ffffff;
+  font-size: 16px;
+}
+.list-feuqiat {
+  margin-right: 0px;
+  padding: 2px;
+}
+.list-feuqiat > li > a {
+  text-decoration: none;
+  color: #cccecf;
+  font-size: 13.2px;
+}
+.list-feuqiat {
+  list-style-type: none;
+}
+.feuqiat p {
+  color: #cccecf;
+  font-size: 12px;
+  margin: 0px 0px 26.4px;
+}
+.contact-list > li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  margin-right: 30px;
+  padding: 10px;
+}
+.contact-list > li > a {
+  margin-right: 10px;
+}
+.contact-card h3 {
+  color: #ffffff;
+  font-size: 16px;
+}
+.contact-card > .contact-list {
+  color: #cccecf;
+  font-size: 13.2px;
+}
+.reserved {
+  text-align: center;
+  color: #62818c;
+  font-size: 11.8px;
+  margin: 23px 0px 0px;
+}
