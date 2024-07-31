@@ -1,0 +1,118 @@
+body,p{
+    margin: 0;
+    padding: 0;
+    color:#b6aad7;
+  }
+  .container {
+    padding: 30px;
+    background-color: #5e42a6;
+    color: white;
+    font-size: 44px;
+  }
+  .btn {
+    min-width: 200px;
+    padding: 15px 36px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 9.6px;
+    letter-spacing: 3px;
+    background-color: #5e42a6;
+    border: 1px solid #b6aad7;
+    color: white;
+  }
+  .img {
+     width: 100%;
+    height: 400px;
+  
+  }
+  .container-mobile {
+    background-color: #5052b5;
+    padding: 30px;
+    color: white;
+    font-size: 44px;
+  }
+  .btn-learn {
+    background-color: #5052b5;
+  }
+  .container-road {
+    background-color: #5052b5;
+    color: white;
+    padding: 30px;
+    font-size: 44px;
+  }
+  .container-man {
+    background-color: #5052b5;
+    color: white;
+    padding: 30px;
+    font-size: 44px;
+  }
+  .container-pink {
+    display: flex;
+    flex-direction:column;
+    background-color:#b74e91;
+     color: white; 
+     padding: 0px;
+    font-size: 10px;
+     color: #e9c3db;
+    }
+  
+  
+  .div-column{
+    color: #e9c3db;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  .container-form{
+    background-color:#5e42a6;
+    color:white;
+     }
+  .name{
+    width:99%;
+    border-radius:35px;
+    background-color:#664cab;
+    color:#b6aad1;
+  }
+  .div-heading{
+  padding: 50px 60px;
+    background-color: #b74e91;
+    font-size:20px;
+  }
+  
+  .btn-send{
+    width:99%;
+  }
+  .div-column{
+  border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    background-color: #bb5797;
+    margin: 0 30px;
+    color: #ffffff8c;
+  display: flex;
+    align-items: center;
+   font-size: 20px;
+    }
+  
+  
+  .div {
+    border: 1px solid #ffff;
+    background-color: #fff;
+    color: #b74e91;
+    font-weight: 900;
+    border-radius: 50%;
+    padding: 5px;
+  }
+   .container-form{
+  padding: 10px 0 50px;
+    background-color: rgb(183 78 145)
+     } 
+  .icons{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    font-size: small;
+    padding-bottom: 40px; 
+   
+  }
+  
