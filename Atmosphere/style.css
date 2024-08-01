@@ -4,24 +4,37 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-position: center center;
   background-size: cover;
-  color: #fff;
+  background-image:linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("images/banner.jpg");
+  
 }
 
 .container {
-  padding: 16em 3em;
-  text-align: center;
-  background-image: linear-gradient(
-      to top,
-      rgba(71, 46, 104, 0.9),
-      rgba(71, 46, 104, 0.9)
-    ),
-    url(images/banner.jpg);
+      /* background-image:linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("images/banner.jpg"); */
+       background-size:cover; 
+      background-position: center center; 
+      text-align:center;
+      height:100vh; 
+      display:flex;
+      align-items:center; 
+      justify-content:center;
+       padding:20px; 
+       text-align: center;
+}
+.group-container{
+  background-color: #fff;
+  background-size: cover;
+  
+  padding: 30px;
+  
+
 }
 .container h4 {
   font-size: 20px;
+  color: #fff; 
 }
 .container h1 {
   font-size: 36px;
+  color: #fff; 
 }
 .btn {
   padding: 12px 34.2px;
@@ -37,6 +50,8 @@ body {
 }
 .container-card {
   background-color: #f5f8fa;
+  background-size: cover;
+  
 }
 .card {
   padding: 25px;
@@ -48,7 +63,7 @@ body {
   text-transform: uppercase;
 }
 .card h2 {
-  color: #637485;
+   color: #637485; 
   font-size: 24px;
 }
 .card p {
@@ -75,6 +90,13 @@ body {
 .description {
   background-color: #00a6d9;
   text-align: center;
+  
+}
+.description  p{
+  color: #fff; 
+}
+.description  h4{
+  color: #fff; 
 }
 .fa-solid,
 .fa-brands {
@@ -169,10 +191,10 @@ input {
 
 }
 
-::placeholder {
+ ::placeholder {
   color: rgb(191 230 242);
   font-size: 15px;
-}
+} 
 
 textarea {
   background-color: rgb(0 155 203);
@@ -203,41 +225,49 @@ input:hover {
   margin-left: 80px;
   letter-spacing: 0.03em;
 }
-.information-card{
-  background-image: linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("./assets/banner.jpg");
-    padding: 80px 20px;
-
+.information-card {
+  /* background-image: linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("./assets/banner.jpg"); */
+   
+  padding:102.66px 20px 29.333px;
+    
 }
 .information-class{
-  background-color: #fff;
+   background-color: #fff; 
     padding: 30px;
 }
+/* .information-class > h4{
+  color: #00a6d9
+   !important;
+} */
+
 .icons-address{
   display: flex;
   gap: 25px;
   margin-bottom: 25px;
   margin-top: 25px;
 }
-  /* .icons-address h{
-    margin: 0;
-    line-height: 1.5em;
-    margin-top: 15px;
-    color: #00a6d9;
-  }
-} */
+  
 .bi {
   color: rgb(216 220 224);
   font-size: 25px;
   margin-top: 15px;
 }
-.icons-address h3{
+.information-card , h4{
   color: #00a6d9;
 }
-
-/* .icons-address h3,
-.icons-address p {
+h4{
+  color: #00a6d9;
+}
+ 
+.icons-address > p > h3 {
   margin: 0;
   line-height: 1.5em;
   margin-top: 15px;
   color: #00a6d9;
-} */
+} 
+.icons-address > h4{
+  color: #00a6d9;
+}
+  #icons{
+  color: #00a6d9;
+}
