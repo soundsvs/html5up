@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+    background-color: #ffffff;
+    
+}
+.container{
+    
+     align-items: center;
+    justify-content: center;
+    background-image: url(assest/banner\ \(4\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #3f3f3f;
+    padding: 8rem 0;
+     
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.625), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.625)), url(assest/banner\ \(4\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.container-card{
+    text-align: center;
+    background-color:rgb(61, 197, 173);
+    padding: 25.66px
+
+}
+.container-card h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25.6px;
+}
+.container-card p{
+    font-size: 14px;
+    color:#ffffff;
+    margin: 3.5px 0px 0px;
+}
+.description{
+    padding: 42px 14px 14px;
+    background-color: #ebebeb;
+}
+.description-fusce{
+    text-align: center;
+    background-color: #ebebeb;
+}
+.description-fusce h2{
+    text-transform: uppercase;
+    font-size: 21px;
+    color:#3f3f3f;
+    margin: 0px 0px 14px;
+}
+.description-fusce p{
+    color:#3f3f3f;
+    font-size:14.66px;
+    margin: 0px 0px 29.333px;
+}
+/* .group-item{
+    background-color: #fff;
+} */
+
+.container-fusce{
+     padding: 42px 14px ; 
+     margin-left: 20px;
+     /* background-color: #fff; */
+}
+
+.container-magna{
+    padding: 42px 14px ; 
+     margin-left: 20px;
+     /* background-color: #fff; */
+     margin-top: 30px;
+}
+.image{
+
+    width: 95%;
+    height: 400px;
+    text-align: center;
+    border-radius:4px 4px 0 0 ;
+}
+
+.group-item {
+    background-color: #fff;
+    padding: 29.33px;
+    font-size: 14px;
+}
+
+.group-item p{
+    font-size: 14.66px;
+    margin: 0px 0px 29.33px;
+    color:#3f3f3f;
+}
+.group-item span {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #3dc5ad;
+    font-weight: 700;
+}
+
+.group-item h3 {
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+.btn {
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 900;
+    background-color: #3dc5ad;
+    padding: 15px 15px;
+    width: 40%;
+    border-radius: 4px;
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+.container-section{
+    padding: 58.66px 29.33px 29.33px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+    background-color: #fff;
+   
+}
+.title {
+    text-transform: uppercase;
+}
+
+.intro {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.intro::before {
+    content: '';
+    display: inline-block;
+    width: 6.5rem;
+    height: 0.25rem;
+    margin: 0 0 1.5rem 0;
+    border-radius: 4px;
+    background-color: #3dc5ad;
+}
+.intro p {
+    margin-bottom: 28px;
+}
+.image-one{
+    border-radius: 100%;
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.get-in-touch {
+    padding: 50px 5px 14px;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    line-height: 2;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.social-icons {
+    text-decoration: none;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.input-field {
+    padding: 14px;
+    width: 268px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.input-field:hover {
+    border: 2px solid;
+    border-color: #3dc5ad;
+}
+.image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .post-card{
+    background-color: #292f33;
+    padding: 58.66px 29.33px 29.33px;
+    margin-top: 0px;
+    /* margin: 0px 0px 49px; */
+  }
+  .post-card h5{
+    color: #3dc5ad;
+    font-size: 14.666px;
+  }
+  .post-card h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14.666px;
+  }
+  .post-card p {
+    font-size: 14.666px;
+    margin: 0px 0px 29.333px;
+    color: #ffff;
+    letter-spacing: 0.5px;
+  }
+  .container-post h2{
+         text-align: center;
+         font-size: 22px;
+         margin: 0px 0px 14.667px;
+         color:#fff;
+  }
+  .post{
+       font-size: 14px;
+       margin: 0px 0px 28px;
+       text-align: center;
+  }
+  .container-post p{
+    font-size: 14px;
+    margin: 0px 0px 28px;
+  }
+  .footer{
+    background-color: #fff;
+  }
+  .title-design h2{
+        text-transform: uppercase;
+  }
