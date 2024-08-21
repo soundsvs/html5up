@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  .branding h1 {
+      letter-spacing: 2px;
+  }
+  
+  .branding .badge {
+      font-size: 0.75em;
+  }
+  .bg-mg {
+    background-image: url("https://picsum.photos/id/38/3264/1836");
+    background-repeat: no-repeat;
+    background-size: center;
+  }
+  .information {
+    justify-content: center;
+    display: flex;
+  }
+  .image-hd{
+    width: 30px;
+  }
