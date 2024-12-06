@@ -1,0 +1,88 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+.span-head {
+    font-size: 15px;
+    margin-left: 8px;
+}
+.custom-bg {
+    background-color:#e27563 !important; 
+    
+}
+.custom-background-color {
+    background-color: rgb(42 48 55 0.75) !important;
+    height:100%;
+    width:100%;
+    transition:opacity 1.5s ease-in-out;
+}
+.heading {
+    font-size:40px;
+}
+.para {
+    color:rgb(192 196 202);
+}
+.custom-card-section {
+    background-color:#e27563 !important;
+} 
+.bi {
+    font-size:40px; 
+    background-color: white;
+    border-radius: 50%;
+    width: 5rem;
+    padding:9px;
+    margin:0 auto;
+    color:#e27563;
+    margin-bottom: 25px;
+}
+.paragraph {
+    font-size:18px; 
+    font-weight: 100;;
+}
+.button-bg {
+    background-color: white;
+    font-size:20px;
+}
+.button-bg-one {
+   color:white;
+   font-size:20px; 
+   border:2px solid #e68a7a;
+   margin-left: 15px;
+
+}
+.button-bg-two {
+    background-color:#e68a7a;
+}
+.Ipsum-information{
+    background-color:pink; 
+}
+.descertion{
+    background-color: #2a3037;
+}
+.icons-links{
+    background-color: #e68a7a;
+    color:aliceblue;
+    margin-right: 20px;
+    
+}
+.para-one{
+    background-color: #2a3037;
+    border: 1px solid white;
+}
+.information{
+     width: 100%; 
+}
+.custom-card-one {
+    width:45%;
+}
+.custom-card-two {
+    width:70%
+}
+.custom-border-one {
+    border:10px solid gainsboro;
+}
+.custom-span {
+    color:#7e8fa5;
+    font-size: 13px;
+}
